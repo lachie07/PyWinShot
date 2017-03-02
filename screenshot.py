@@ -2,9 +2,10 @@ import os
 import time
 import ImageGrab
 
-#------------------
+#-----OPTIONS------
 SAVE_DIRECTORY = "C:\\Users\\Lachie\\Desktop\\"
 TIMER_COUNTDOWN = 5
+AUTOMATIC_SAVE = False
 #------------------
 
 print """Note:

@@ -14,7 +14,7 @@ When the script is run, it will give you a count down of 5 seconds (this can be 
 **Settings**   
 It is possible to change a few of the settings, currently you can change: 
 * Save Directory  
-* Timer countdown   
+* Timer countdown  * Option for saving   
 
 **To Do**
 * (Optional) Upload the screenshot to an image hosting service (or server)    
