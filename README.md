@@ -1,7 +1,7 @@
 # PyWinShot
 A python script that will take a screenshot and save it on Windows.
 
-**Current version:** 1.0
+**Current version:** 1.1
 
 **Setup**   
 1. Download .zip of script  
