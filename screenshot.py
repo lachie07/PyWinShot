@@ -25,6 +25,10 @@ for i in range(TIMER_COUNTDOWN,-1,-1):
 img = ImageGrab.grab()
 saveas = os.path.join(SAVE_DIRECTORY,"Screenshot.jpg")
 img.show()
-option = raw_input("Would you like to save this screenshot(Y/N): ")
-if option.lower() == "y":
-    img.save(saveas)
+if not AUTOMATIC_SAVE:
+    option = raw_input("Would you like to save this screenshot(Y/N): ")
+    if option.lower() == "y":
+        print "Saving screenshot"
+        img.save(saveas)
+else:
+    print "Saving screenshot"
